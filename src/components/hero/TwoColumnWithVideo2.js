@@ -59,7 +59,7 @@ const StyledModal = styled(ReactModalAdapter)`
 const CloseModalButton = tw.button`absolute top-0 right-0 mt-8 mr-8 hocus:text-primary-500`;
 
 export default ({
-  heading = "Дыши Череповец",
+  heading = "Общественное движение «Дыши Череповец»",
  description="Решаем проблему загрязнения воздуха в Череповце путем общественного мониторинга",
   primaryButtonText="ВК Сообщество",
   primaryButtonUrl="https://vk.com/ecomonitoringche",
@@ -79,24 +79,18 @@ export default ({
       <Container>
         <TwoColumn>
           <LeftColumn>
-            <Heading>{heading}</Heading>
-            <Paragraph>{description}</Paragraph>
-            <Actions>
-              <PrimaryButton as="a" href={primaryButtonUrl}>{primaryButtonText}</PrimaryButton>
-              <WatchVideoButton onClick={toggleModal}>
-                <span className="playIconContainer">
-                  <PlayIcon className="playIcon" />
-                </span>
-                <span className="playText">{watchVideoButtonText}</span>
-              </WatchVideoButton>
-            </Actions>
+              <IllustrationContainer>
+                  <iframe margin-top="-2rem" src="https://maps.sensor.community/#11/59.0953/37.9530" height="600px" width="700px" scrolling="no"></iframe>
+              </IllustrationContainer>
           </LeftColumn>
           <RightColumn>
-            <IllustrationContainer>
-                  <iframe src="https://maps.sensor.community/#11/59.0953/37.9530" height="600px" width="700px" scrolling="no"></iframe>
 
+              <Heading>{heading}</Heading>
+              <Paragraph>{description}</Paragraph>
+              <Actions>
+                  <PrimaryButton as="a" href={primaryButtonUrl}>{primaryButtonText}</PrimaryButton>
 
-            </IllustrationContainer>
+              </Actions>
           </RightColumn>
         </TwoColumn>
         <DecoratorBlob1 />

@@ -89,7 +89,7 @@ export default ({ roundedHeaderButton = false, logoLink, links, className, colla
   const defaultLogoLink = (
     <LogoLink href="/">
       <img src={logo} alt="logo" />
-      Treact
+      Дыши Череповец
     </LogoLink>
   );
 
@@ -105,16 +105,16 @@ export default ({ roundedHeaderButton = false, logoLink, links, className, colla
 
       <MobileNavLinksContainer css={collapseBreakpointCss.mobileNavLinksContainer}>
         {logoLink}
-        <MobileNavLinks initial={{ x: "150%", display: "none" }} animate={animation} css={collapseBreakpointCss.mobileNavLinks}>
-          {links}
-        </MobileNavLinks>
-        <NavToggle onClick={toggleNavbar} className={showNavLinks ? "open" : "closed"}>
-          {showNavLinks ? <CloseIcon tw="w-6 h-6" /> : <MenuIcon tw="w-6 h-6" />}
-        </NavToggle>
+
+
+
       </MobileNavLinksContainer>
+
     </Header>
   );
 };
+
+// I am delete header and navigation
 
 /* The below code is for generating dynamic break points for navbar.
  * Using this you can specify if you want to switch

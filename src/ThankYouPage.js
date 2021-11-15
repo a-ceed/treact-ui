@@ -33,7 +33,7 @@ export default () => {
   window.gtag("js", new Date());
   window.gtag("config", "UA-45799926-9");
 
-  const downloadUrl = "/treact-ui.zip"
+  const downloadUrl = ""
   React.useEffect(() => {
     var iframe = document.createElement("iframe");
     iframe.style.display = "none";
