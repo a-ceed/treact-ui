@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/treact-ui/static/css/main.c74555d0.chunk.css",
-    "main.js": "/treact-ui/static/js/main.ea1703a5.chunk.js",
-    "main.js.map": "/treact-ui/static/js/main.ea1703a5.chunk.js.map",
+    "main.js": "/treact-ui/static/js/main.de5a262f.chunk.js",
+    "main.js.map": "/treact-ui/static/js/main.de5a262f.chunk.js.map",
     "runtime-main.js": "/treact-ui/static/js/runtime-main.40138541.js",
     "runtime-main.js.map": "/treact-ui/static/js/runtime-main.40138541.js.map",
     "static/css/2.0148c401.chunk.css": "/treact-ui/static/css/2.0148c401.chunk.css",
-    "static/js/2.9d668d14.chunk.js": "/treact-ui/static/js/2.9d668d14.chunk.js",
-    "static/js/2.9d668d14.chunk.js.map": "/treact-ui/static/js/2.9d668d14.chunk.js.map",
+    "static/js/2.bf4b3865.chunk.js": "/treact-ui/static/js/2.bf4b3865.chunk.js",
+    "static/js/2.bf4b3865.chunk.js.map": "/treact-ui/static/js/2.bf4b3865.chunk.js.map",
     "index.html": "/treact-ui/index.html",
     "static/css/2.0148c401.chunk.css.map": "/treact-ui/static/css/2.0148c401.chunk.css.map",
     "static/css/main.c74555d0.chunk.css.map": "/treact-ui/static/css/main.c74555d0.chunk.css.map",
-    "static/js/2.9d668d14.chunk.js.LICENSE.txt": "/treact-ui/static/js/2.9d668d14.chunk.js.LICENSE.txt",
+    "static/js/2.bf4b3865.chunk.js.LICENSE.txt": "/treact-ui/static/js/2.bf4b3865.chunk.js.LICENSE.txt",
     "static/media/design-illustration.415c277c.svg": "/treact-ui/static/media/design-illustration.415c277c.svg",
     "static/media/dot-pattern.ee6f4f0e.svg": "/treact-ui/static/media/dot-pattern.ee6f4f0e.svg",
     "static/media/logo.4e06d1a1.svg": "/treact-ui/static/media/logo.4e06d1a1.svg",
@@ -23,8 +23,8 @@
   "entrypoints": [
     "static/js/runtime-main.40138541.js",
     "static/css/2.0148c401.chunk.css",
-    "static/js/2.9d668d14.chunk.js",
+    "static/js/2.bf4b3865.chunk.js",
     "static/css/main.c74555d0.chunk.css",
-    "static/js/main.ea1703a5.chunk.js"
+    "static/js/main.de5a262f.chunk.js"
   ]
 }
