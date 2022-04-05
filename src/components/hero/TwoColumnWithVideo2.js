@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import styled from "styled-components";
 import tw from "twin.macro";
+
 //eslint-disable-next-line
 import { css } from "styled-components/macro";
 
@@ -14,6 +15,7 @@ import { ReactComponent as CloseIcon } from "feather-icons/dist/icons/x.svg";
 import { ReactComponent as SvgDecoratorBlob1 } from "../../images/svg-decorator-blob-1.svg";
 import { ReactComponent as SvgDecoratorBlob2 } from "../../images/dot-pattern.svg";
 import DesignIllustration from "../../images/design-illustration.svg";
+
 
 const Container = tw.div`relative`;
 const TwoColumn = tw.div`flex flex-col lg:flex-row md:items-center max-w-screen-xl mx-auto py-20 md:py-24`;
@@ -60,7 +62,7 @@ const CloseModalButton = tw.button`absolute top-0 right-0 mt-8 mr-8 hocus:text-p
 
 export default ({
   heading = "Общественное движение «Дыши Череповец»",
- description="Решаем проблему загрязнения воздуха в Череповце путем общественного мониторинга",
+ description="Движение направленное на поддержку и реализацию президентских инициатив «в области здоровьесбережения граждан», нацпроекта «Экология» и федерального проекта «Чистый воздух».",
   primaryButtonText="ВК Сообщество",
   primaryButtonUrl="https://vk.com/ecomonitoringche",
   watchVideoButtonText="Презентация",
@@ -87,6 +89,9 @@ export default ({
 
               <Heading>{heading}</Heading>
               <Paragraph>{description}</Paragraph>
+
+
+
               <Actions>
                   <PrimaryButton as="a" href={primaryButtonUrl}>{primaryButtonText}</PrimaryButton>
 
