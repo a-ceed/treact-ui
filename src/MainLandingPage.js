@@ -146,9 +146,7 @@ export default ({
               <NavLink target="_blank" href="https://owaiskhan.me">
                 Who Am I ?
               </NavLink>
-              <NavLink target="_blank" href="https://twitter.com/owaiswiz">
-                Twitter
-              </NavLink>
+
               <NavLink target="_blank" href="mailto:owaiswiz@gmail.com">
                 Hire Me!
               </NavLink>

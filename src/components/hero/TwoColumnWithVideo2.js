@@ -61,8 +61,8 @@ const StyledModal = styled(ReactModalAdapter)`
 const CloseModalButton = tw.button`absolute top-0 right-0 mt-8 mr-8 hocus:text-primary-500`;
 
 export default ({
-  heading = "Общественное движение «Дыши Череповец»",
- description="Движение направленное на поддержку и реализацию президентских инициатив «в области здоровьесбережения граждан», нацпроекта «Экология» и федерального проекта «Чистый воздух».",
+  heading = "Общественное движение «Дыши, Череповец»",
+ description="Движение, направленное на поддержку и реализацию президентских инициатив «в области здоровьесбережения граждан», нацпроекта «Экология» и федерального проекта «Чистый воздух».",
   primaryButtonText="ВК Сообщество",
   primaryButtonUrl="https://vk.com/ecomonitoringche",
   watchVideoButtonText="Презентация",
