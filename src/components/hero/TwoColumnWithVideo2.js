@@ -80,7 +80,7 @@ const CloseModalButton = tw.button`absolute top-0 right-0 mt-8 mr-8 hocus:text-p
 export default ({
  heading = "Общественное движение «Дыши, Череповец»",
 description="Движение, направленное на поддержку и реализацию президентских инициатив «в области здоровьесбережения граждан», нацпроекта «Экология» и федерального проекта «Чистый воздух».",
-primaryButtonText="Присоединиться к группе VK",
+primaryButtonText="Присоединиться в VK",
 primaryButtonUrl="https://vk.com/ecomonitoringche",
 
 botButtonText="Пожаловаться через бота",
@@ -98,7 +98,7 @@ botButtonUrl="https://t.me/ecomonitorbot",
                         ],
                         "Жалобы": [
                             {
-                                mapSrc: "https://sensors.robonomics.network/#/ipfs/pm10/12/59.1230/37.9324",
+                                mapSrc: "https://sensors.robonomics.network/#/ipfs/pm10/11/59.1268/37.9303",
                                 title: "Жалобы",
                             }
                         ]
