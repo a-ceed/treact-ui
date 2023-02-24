@@ -78,7 +78,8 @@ const StyledModal = styled(ReactModalAdapter)`
 const CloseModalButton = tw.button`absolute top-0 right-0 mt-8 mr-8 hocus:text-primary-500`;
 
 export default ({
- heading = "Общественное движение «Дыши, Череповец»",
+heading1 = "Общественное движение",
+heading2 = "«Дыши, Череповец»",
 description="Движение, направленное на поддержку и реализацию президентских инициатив «в области здоровьесбережения граждан», нацпроекта «Экология» и федерального проекта «Чистый воздух».",
 primaryButtonText="Присоединиться в VK",
 primaryButtonUrl="https://vk.com/ecomonitoringche",
@@ -92,13 +93,13 @@ botButtonUrl="https://t.me/ecomonitorbot",
                     tabs = {
                         'Датчики': [
                             {
-                                mapSrc: "https://maps.sensor.community/#11/59.0953/37.9530",
+                                mapSrc: "https://maps.sensor.community/#11/59.1219/37.9516",
                                 title: "Датчики",
                             }
                         ],
                         "Жалобы": [
                             {
-                                mapSrc: "https://sensors.robonomics.network/#/ipfs/pm10/11/59.1268/37.9303",
+                                mapSrc: "https://sensors.robonomics.network/#/remote/pm10/11/59.1268/37.9303",
                                 title: "Жалобы",
                             }
                         ]
@@ -152,7 +153,7 @@ botButtonUrl="https://t.me/ecomonitorbot",
                           {tabs[tabKey].map((card, index) => (
 
 
-                                  <iframe position="absolute" margin-top="-2rem" src={card.mapSrc} height="600" width="100%" scrolling="no"></iframe>
+                                  <iframe position="absolute" margin-top="-2rem" src={card.mapSrc} height="480" width="100%" scrolling="no"></iframe>
 
                           ))}
                       </TabContent>
@@ -161,7 +162,7 @@ botButtonUrl="https://t.me/ecomonitorbot",
           </LeftColumn>
           <RightColumn>
 
-              <Heading>{heading}</Heading>
+              <Heading>{heading1}<br/>{heading2}</Heading>
               <Paragraph>{description}</Paragraph>
 
 
